@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">News App 1</string>
+    <string name="news_unavailable">No New News Available.</string>
+    <string name="connection_unavailable">No Internet connection. \n Connect and Try Again.</string>
+</resources>
