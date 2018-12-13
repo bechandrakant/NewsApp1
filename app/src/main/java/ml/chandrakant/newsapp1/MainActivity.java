@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements
     private ProgressBar progressBar;
 
     private static final String GUARDIAN_URL_STRING =
-            "https://content.guardianapis.com/search?api-key=da37201a-f618-45e5-9248-287c214ba0a7";
+            "https://content.guardianapis.com/search?api-key=da37201a-f618-45e5-9248-287c214ba0a7&show-tags=contributor";
 
     @Override
     public Loader<List<NewsItem>> onCreateLoader(int id, Bundle args) {
