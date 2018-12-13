@@ -18,6 +18,7 @@
             android:id="@+id/title_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            tools:text="Title Placeholder Text"
             android:textSize="@dimen/title_text_size"
             android:textColor="@android:color/white"
             android:textStyle="bold"/>
@@ -26,6 +27,7 @@
             android:id="@+id/author_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            tools:text="Author Placeholder Text"
             android:maxLines="1"
             android:textSize="@dimen/author_text_size"
             android:textColor="@android:color/white"/>
@@ -34,7 +36,7 @@
             android:id="@+id/section_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxLines="1"
+            tools:text="Section Placeholder Text"
             android:textSize="@dimen/section_text_size"
             android:textColor="@android:color/white"/>
 
@@ -51,11 +53,13 @@
             android:id="@+id/date_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            tools:text="2018-12-12"
             android:textColor="@android:color/white"/>
         <TextView
             android:id="@+id/time_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            tools:text="8:45"
             android:textColor="@android:color/white"/>
     </LinearLayout>
 </LinearLayout>
